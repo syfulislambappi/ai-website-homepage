@@ -1,0 +1,151 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* General Styles */
+:root {
+    --base-color: #F2994A;
+    --secondery-color: #0F1144;
+    --third-color: #99EFD0;
+    --text-color: #8476AA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--secondery-color);
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 4.4rem;
+    margin: 1rem 0;
+    color: var(--third-color);
+    line-height: 5rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin: 1rem 0;
+    color: var(--third-color);
+}
+
+h3 {
+    font-size: 3.6rem;
+    margin: 1rem 0;
+    color: var(--third-color);
+}
+
+h4 {
+    font-size: 2.6rem;
+    margin: 1rem 0;
+    color: var(--third-color);
+}
+
+h5 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    color: var(--third-color);
+}
+
+h6 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
+
+/* Button Styles */
+.btn {
+    background-color: var(--base-color);
+    color: white;
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.25);
+    padding: 1rem 2.5rem;
+    border: 0.1rem solid var(--base-color);
+    outline: none;
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    width: 15.7rem;
+    height: 4.6rem;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    color: var(--base-color);
+    background-color: transparent;
+}
+
+.btn-ts {
+    background-color: transparent;
+    color: var(--base-color);
+    border: 0.1rem solid var(--base-color);
+    padding: 1rem 2.5rem;
+    outline: none;
+    box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.25);
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    width: 15.7rem;
+    height: 4.6rem;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.btn-ts:hover {
+    color: #fff;
+    background-color: var(--base-color);
+}
+
+/* Text Style */
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--text-color);
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    color: #FFF;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+span {
+    color: var(--base-color);
+}
+
+/* Image Style */
+img {
+    width: 100%;
+}
